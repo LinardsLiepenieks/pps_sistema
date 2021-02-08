@@ -224,8 +224,6 @@ class ExercisesController extends Controller
         $this->authorize('create', Exercise::class);
         $exercise->tests()->delete();
         $exercise->submission()->delete();
-        dd(1);
-
         $exercise->tag()->detach();
         $exercise->delete();
         return redirect('/exercises');
