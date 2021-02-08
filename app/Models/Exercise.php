@@ -13,7 +13,7 @@ class exercise extends Model
     {
         return $this->hasMany(Test::class);
     }
-    public function submission()
+    public function Submission()
     {
         return $this->hasMany(Submission::class);
     }
