@@ -27,7 +27,7 @@ class CreateExercisesTable extends Migration
             $table->float('memory');
             $table->timestamps();
 
-            $table->index('exercises_uzd_id_index');
+            //$table->index('exercises_uzd_id_index');
 
         });
     }
