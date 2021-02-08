@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Exercise extends Model
+class exercise extends Model
 {
     use HasFactory;
 
@@ -15,12 +15,12 @@ class Exercise extends Model
     }
     public function submission()
     {
-        return $this->hasMany(submission::class);
+        return $this->hasMany(Submission::class);
     }
 
     public function solution()
     {
-        return $this->hasMany(solution::class);
+        return $this->hasMany(Solution::class);
     }
 
     public function tag()
