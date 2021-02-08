@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18c52990-d6dc-405e-9e3b-03239d5574b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_10_224758_create_exercises_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_10_224758_create_exercises_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +252,7 @@
       <workItem from="1612441837725" duration="16906000" />
       <workItem from="1612478464740" duration="656000" />
       <workItem from="1612810575156" duration="101000" />
-      <workItem from="1612812012972" duration="2125000" />
+      <workItem from="1612812012972" duration="2274000" />
     </task>
     <servers />
   </component>
